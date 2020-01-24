@@ -19,4 +19,5 @@ def assign_rooms(array)
     next_array << "Hello #{speaker}! You'll be assgned to room #{counter}"
     counter +=
   end
+  next_array
 end
