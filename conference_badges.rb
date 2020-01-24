@@ -16,7 +16,7 @@ def assign_rooms(array)
   next_array = []
   counter = 1
   array.each do |speaker|
-    next_array << "Hello #{speaker}! You'll be assgned to room #{counter}"
+    next_array << "Hello #{speaker}! You'll be assgned to room #{counter}!"
     counter += 1
   end
   next_array
