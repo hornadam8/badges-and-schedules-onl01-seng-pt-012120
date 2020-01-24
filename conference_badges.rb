@@ -22,5 +22,3 @@ def assign_rooms(array)
   next_array
 end
 
-def printer
-  print assign_rooms()
