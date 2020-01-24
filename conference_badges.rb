@@ -21,3 +21,11 @@ def assign_rooms(array)
   end
   next_array
 end
+
+def printer(array)
+  print_array = []
+  array.each do |speaker|
+    print_array << [assign_rooms(#{speaker}), batch_badge_creator(#{speaker})]
+  end
+  print_array
+end
